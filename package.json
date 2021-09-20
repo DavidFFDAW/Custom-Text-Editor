@@ -1,0 +1,24 @@
+{
+  "name": "electronjs-app",
+  "version": "0.1.0",
+  "description": "Desktop Native ElectronJs App",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "start:dev": "nodemon electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidFFDAW/electronjs-app.git"
+  },
+  "author": "David Fernandez Flores",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidFFDAW/electronjs-app/issues"
+  },
+  "homepage": "https://github.com/DavidFFDAW/electronjs-app#readme",
+  "devDependencies": {
+    "electron": "^14.0.1"
+  }
+}
